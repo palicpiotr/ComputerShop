@@ -1,0 +1,16 @@
+﻿@model ComputerShop.Models.UserProfile
+
+@{
+    ViewBag.Title = "Удалить пользователя";
+}
+
+<div class="content">
+    <h2>Вы действительно хотите удалить этого пользователя?</h2>
+    <p><em>@Model.UserName</em></p>
+    @using (Html.BeginForm("Delete", "User", new { id = Model.UserId })) {
+        <input type="submit" value="Удалить" />
+    }
+    <p>
+        @Html.ActionLink("Вернуться к списку пользователей", "Index")
+    </p>
+</div>

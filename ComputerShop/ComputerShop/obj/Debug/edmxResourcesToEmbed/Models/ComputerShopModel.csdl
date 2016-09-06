@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ComputerShopDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ComputerShopDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="delivery" EntityType="ComputerShopDBModel.delivery" />
+    <EntitySet Name="order" EntityType="ComputerShopDBModel.order" />
+    <EntitySet Name="product" EntityType="ComputerShopDBModel.product" />
+    <AssociationSet Name="orderdelivery_id" Association="ComputerShopDBModel.orderdelivery_id">
+      <End Role="order" EntitySet="order" />
+      <End Role="delivery" EntitySet="delivery" />
+    </AssociationSet>
+    <AssociationSet Name="productOrder_id" Association="ComputerShopDBModel.productOrder_id">
+      <End Role="order" EntitySet="order" />
+      <End Role="product" EntitySet="product" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="delivery">
+    <Key>
+      <PropertyRef Name="delivery_id" />
+    </Key>
+    <Property Name="delivery_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="orderdelivery_id" Type="Int32" />
+    <Property Name="name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="surname" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="delivery_type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="country" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="city" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="phone_number" Type="Int32" />
+    <Property Name="postcode" Type="Int32" />
+    <Property Name="cost" Type="Int32" />
+    <Property Name="delivery_status" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="adress" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="order" Relationship="ComputerShopDBModel.orderdelivery_id" FromRole="delivery" ToRole="order" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="order_date" Type="DateTime" Precision="0" />
+    <Property Name="userorder_id" Type="Int32" />
+    <Property Name="payment_method" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="orders_status" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="tax_sum" Type="Int32" />
+    <NavigationProperty Name="delivery" Relationship="ComputerShopDBModel.orderdelivery_id" FromRole="order" ToRole="delivery" />
+    <NavigationProperty Name="product" Relationship="ComputerShopDBModel.productOrder_id" FromRole="order" ToRole="product" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Name="product_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="product_name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="category" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="manufacturer" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="productOrder_id" Type="Int32" />
+    <NavigationProperty Name="order" Relationship="ComputerShopDBModel.productOrder_id" FromRole="product" ToRole="order" />
+  </EntityType>
+  <Association Name="orderdelivery_id">
+    <End Role="order" Type="ComputerShopDBModel.order" Multiplicity="0..1" />
+    <End Role="delivery" Type="ComputerShopDBModel.delivery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="order">
+        <PropertyRef Name="order_id" />
+      </Principal>
+      <Dependent Role="delivery">
+        <PropertyRef Name="orderdelivery_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="productOrder_id">
+    <End Role="order" Type="ComputerShopDBModel.order" Multiplicity="0..1" />
+    <End Role="product" Type="ComputerShopDBModel.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="order">
+        <PropertyRef Name="order_id" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="productOrder_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

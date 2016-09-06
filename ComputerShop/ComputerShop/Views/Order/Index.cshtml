@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ComputerShop.Models.order>
+
+@{
+    ViewBag.Title = "Список заказов";
+}
+
+<div class="content">
+    <h2>Список заказов</h2>
+    <table class="data_table">
+        <tr>
+            <th>Дата создания</th>
+            <th>Состояние заказа</th>
+            <th>Способ оплаты</th>
+            <th>Общая сумма заказа</th>
+            <th>Действия</th>
+        </tr>
+        @foreach (var item in Model) {
+
+           
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.orders_status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.payment_method)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tax_sum)
+                </td>
+
+                <td>
+                   
+                    @if (User.IsInRole("Seller") && item.orders_status.Equals("Оплачен")) {
+                        @Html.ActionLink("Отменить", "Delete", new { id = item.order_id }) 
+                        @Html.ActionLink("Подтвердить", "Submit", new { id = item.order_id })
+                    }
+                    else if (User.IsInRole("Seller") && item.orders_status.Equals("Подтвержден")){
+                         @Html.ActionLink("Выслать", "SubmitToDelivery", new { id = item.order_id }) 
+                    }
+                    else if (User.IsInRole("Client")) {
+                        if (item.orders_status.Equals("Оплачен")) {
+                            @Html.ActionLink("Отменить", "Delete", new { id = item.order_id }) 
+                                
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+    @if (User.IsInRole("Client")) {
+        <p>
+            @Html.ActionLink("Оформить заказ", "Index", "Cart")
+        </p>
+    }
+</div>

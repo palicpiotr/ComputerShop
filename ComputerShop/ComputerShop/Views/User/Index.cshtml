@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ComputerShop.Models.UserProfile>
+
+@{
+    ViewBag.Title = "Пользователи";
+}
+
+<div class="content">
+    <h2>Пользователи</h2>
+
+    <table class="data_table">
+        <tr>
+            <th>Имя прользователя</th>
+            <th>Роль</th>
+            <th>Действия</th>
+        </tr>
+        @foreach (var user in Model) {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@Roles.GetRolesForUser(user.UserName)[0]</td>
+                <td>
+                    @Html.ActionLink("Удалить", "Delete", new { id = user.UserId }) |
+                    @Html.ActionLink("Сменить роль", "ChangeRole", new { id = user.UserId })
+                </td>
+            </tr>
+        }
+    </table>
+    <p>
+        @Html.ActionLink("Создать пользователя", "Create")
+    </p>
+</div>

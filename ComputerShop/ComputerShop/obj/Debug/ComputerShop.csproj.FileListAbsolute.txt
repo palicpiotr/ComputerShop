@@ -1,0 +1,117 @@
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ComputerShop.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ComputerShop.pdb
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\Antlr3.Runtime.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.AspNet.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.Core.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OAuth.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OpenId.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\EntityFramework.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\Newtonsoft.Json.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Helpers.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Mvc.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Optimization.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Razor.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.WebPages.Deployment.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.WebPages.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.WebPages.Razor.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\WebGrease.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\WebMatrix.Data.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\WebMatrix.WebData.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\EntityFramework.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\Newtonsoft.Json.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Helpers.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Mvc.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.Razor.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.WebPages.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.WebPages.Deployment.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\System.Web.WebPages.Razor.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\WebMatrix.Data.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\WebMatrix.WebData.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.AspNet.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.Core.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OAuth.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OpenId.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\EntityFramework.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.Helpers.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.Mvc.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.Optimization.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.Razor.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.WebPages.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\WebMatrix.Data.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\bin\ru\WebMatrix.WebData.resources.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\obj\Debug\ComputerShop.csprojResolveAssemblyReference.cache
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\obj\Debug\ComputerShop.dll
+c:\users\сергей\documents\visual studio 2012\Projects\ComputerShop\ComputerShop\obj\Debug\ComputerShop.pdb
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ComputerShop.dll.config
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ComputerShop.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ComputerShop.pdb
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\Antlr3.Runtime.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.AspNet.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.Core.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OAuth.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OpenId.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\EntityFramework.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\Newtonsoft.Json.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Net.Http.Formatting.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Helpers.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Http.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Http.WebHost.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Mvc.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Optimization.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Razor.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.WebPages.Deployment.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.WebPages.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.WebPages.Razor.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\WebGrease.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\WebMatrix.Data.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\WebMatrix.WebData.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\EntityFramework.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\Newtonsoft.Json.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Net.Http.Formatting.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Helpers.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Http.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Http.WebHost.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Mvc.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.Razor.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.WebPages.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.WebPages.Deployment.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\System.Web.WebPages.Razor.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\WebMatrix.Data.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\WebMatrix.WebData.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.AspNet.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.Core.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OAuth.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OpenId.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\EntityFramework.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.Helpers.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.Http.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.Mvc.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.Optimization.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.Razor.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.WebPages.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\WebMatrix.Data.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\bin\ru\WebMatrix.WebData.resources.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\obj\Debug\ComputerShop.dll
+D:\Freelance\ComputerShop\kursachcomputershop-svn-7-trunk\ComputerShop\obj\Debug\ComputerShop.pdb

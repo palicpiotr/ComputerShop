@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ComputerShop.Models.delivery>
+
+@{
+    ViewBag.Title = "Состояние доставки";
+}
+
+<div class="content"><p>Отсутсвует заказ, который можно доставить, пожалуйста добавьте @Html.ActionLink("товары", "Index", "Product") в корзину.</p></div>
+        
+
+@foreach (var item in Model) {
+       
+               <p> Ваш заказ </p>  @Html.DisplayFor(modelItem => item.delivery_status)
+            
+                @Html.ActionLink("Информация о доставке", "Details", new { id=item.delivery_id })
+            
+                }
+            

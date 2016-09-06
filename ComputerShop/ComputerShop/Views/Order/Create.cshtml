@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Разместить заказ";
+}
+
+<div class="content">
+    <h2>Разместить заказ</h2>
+
+    @using (Html.BeginForm()) {
+        @Html.ValidationSummary(true)
+        <fieldset>
+            <legend>Оформление заказа</legend>
+            <p>С вас @ViewBag.cost рублей</p>
+            <input id="cost" hidden="hidden" value="@ViewBag.cost" name="cost" type="text" />
+              
+            <label for="method">Способ оплаты:</label>
+              <select id="method" name="method" required>
+                <option value="Наличные">наличные</option>
+                 <option value="Карта">карта</option>
+             </select>
+            <label for="deliveryType">Способ получения товара</label>
+              <select id="deliveryType" name="deliveryType" required>
+                <option value="доставка на дом">доставка на дом</option>
+                 <option value="в магазине">в магазине</option>
+             </select>
+
+            
+            <p>
+                <input type="submit" value="Оплатить" />
+            </p>
+        </fieldset>
+    }
+
+    <p>
+        @Html.ActionLink("Вернуться", "Index")
+    </p>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

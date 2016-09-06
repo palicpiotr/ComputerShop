@@ -1,0 +1,51 @@
+﻿@model ComputerShop.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="content">
+    <h2>Create</h2>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+
+        <fieldset>
+            <legend>Форма регистрации</legend>
+            <ol>
+                <li>
+                    @Html.LabelFor(m => m.UserName)
+                    @Html.TextBoxFor(m => m.UserName)
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.Password)
+                    @Html.PasswordFor(m => m.Password)
+                </li>
+                <li>
+                    @Html.LabelFor(m => m.ConfirmPassword)
+                    @Html.PasswordFor(m => m.ConfirmPassword)
+                </li>
+                <li>
+                    <label for="role">Роль</label>
+                    <select id="role" name="role">
+                        @foreach (var role in Roles.GetAllRoles()) {
+                            <option>
+                                @role
+                            </option>
+                        }
+                    </select>
+                </li>
+            </ol>
+            <input type="submit" value="Создать пользователя" />
+        </fieldset>
+    }
+    <p>
+        @Html.ActionLink("Вернуться к списку пользователей", "Index")
+    </p>
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

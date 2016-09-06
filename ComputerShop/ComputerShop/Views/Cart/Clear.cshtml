@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Очистить корзину?";
+}
+<div class="content">
+    <h2>Вы действительно хотите очистить корзину?</h2>
+    @using (Html.BeginForm())
+    {
+        <input type="submit" value="Очистить" />
+    }
+</div>

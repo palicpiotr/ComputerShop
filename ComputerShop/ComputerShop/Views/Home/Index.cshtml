@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Домашняя страница";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Добро пожаловать на сайт интернет-магазина компьютерной техники!</h1>
+                @using (Html.BeginForm("Index", "Product", FormMethod.Get))
+                {
+                    <p>
+                       
+                        @Html.TextBox("SearchString", value: "Ноутбук")
+                         @Html.Hidden("SearchString")
+                        <input style="background-color: greenyellow" type="submit"  value="Ноутбук" />
+                    </p>
+                }
+            </hgroup>
+
+        </div>
+    </section>
+}
+<h3>Почему покупать у нас?</h3>
+<ol class="round">
+    <li class="one">
+        <h5>У нас самые низкие цены</h5>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </li>
+
+    <li class="two">
+        <h5>Быстрая доставка, фиксированная цена</h5>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </li>
+
+    <li class="three">
+        <h5>Товары постоянно обновляются  </h5>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </li>
+</ol>

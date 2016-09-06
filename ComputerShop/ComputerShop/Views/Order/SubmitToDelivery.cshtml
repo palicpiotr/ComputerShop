@@ -1,0 +1,11 @@
+﻿@model ComputerShop.Models.order
+
+@{
+    ViewBag.Title = "Подтвердить отправку";
+}
+<div class="content">
+    <h2>Вы действительно хотите подтвердить отправку заказа?</h2>
+    @using (Html.BeginForm(new { id = Model.order_id })) {
+        <input type="submit" value="Подтвердить" />
+    }
+</div>

@@ -1,0 +1,31 @@
+﻿@model ComputerShop.Models.Cart
+
+@{
+    ViewBag.Title = "Cart";
+    List<ComputerShop.Models.product> products = ViewBag.products;
+    
+}
+
+<div class="content">
+    <h2>Содержание корзины:</h2>
+    @if (Model.Content.Count == 0) {
+        <p>Корзина пуста</p>
+    } else {
+        <table class="data_table">
+            <tr>
+                <th>Название товара</th>
+                <th>Количество</th>
+                <th>Удалить</th>
+            </tr>
+            @foreach (var item in Model.Content) {
+                <tr>
+                    <td>@products.Find(product => product.product_id == item.Key).product_name</td>
+                    <td>@item.Value</td>
+                    <td>@Html.ActionLink("Удалить из корзины", "Remove", new { id = item.Key })</td>
+                </tr>
+            }
+        </table>
+        @Html.ActionLink("Очистить корзину", "Clear")
+         @Html.ActionLink("Оформить заказ","Create", "Order")
+         }
+</div>

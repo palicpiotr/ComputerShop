@@ -1,0 +1,33 @@
+﻿@model ComputerShop.Models.UserProfile
+
+@{
+    ViewBag.Title = "Изменить роль";
+}
+
+<div class="content">
+    <h2>Изменить роль пользователя</h2>
+
+    <p>Имя пользователя: @Model.UserName</p>
+
+    @using (Html.BeginForm("ChangeRole", "User", new { id = Model.UserId })) {
+        <label for="role">Роль:</label>
+        <select id="role" name="role">
+            @foreach (var role in Roles.GetAllRoles()) {
+                <option
+                    @if (Roles.IsUserInRole(Model.UserName, role)) {
+                        <text>selected</text>
+                    }>
+                    @role
+                </option>
+            }
+        </select>
+        <input type="submit" value="Изменить" />
+    }
+    <p>
+        @Html.ActionLink("Вернуться к списку пользователей", "Index")
+    </p>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

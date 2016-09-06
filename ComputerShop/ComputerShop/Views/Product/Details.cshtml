@@ -1,0 +1,58 @@
+﻿@model ComputerShop.Models.product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>product</legend>
+
+    
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.product_name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.product_name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.category)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.category)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.description)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.description)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.manufacturer)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.manufacturer)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.order.payment_method)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.order.payment_method)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.product_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

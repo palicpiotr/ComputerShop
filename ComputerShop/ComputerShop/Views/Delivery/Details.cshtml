@@ -1,0 +1,87 @@
+﻿@model ComputerShop.Models.delivery
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>delivery</legend>
+
+    
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.surname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.surname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.delivery_type)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.delivery_type)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.country)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.country)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.city)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.city)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.phone_number)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.phone_number)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.postcode)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.postcode)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.cost)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.cost)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.delivery_status)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.delivery_status)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.adress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.adress)
+    </div>
+</fieldset>
+<p>
+   
+    @Html.ActionLink("Back to List", "Index")
+</p>
